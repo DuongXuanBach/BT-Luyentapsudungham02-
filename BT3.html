@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 3: Viết hàm tính giai thừa của một số nguyên bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.-->
+
+<script>
+    var n = prompt('Nhap gia tri cua N')
+    var gt = 0;
+    function giaithua(x) {
+        var giaithua=1;
+        for(i = 1;i <= n; i++) {
+            giaithua*=i;
+        }
+        alert('Giai Thua bang '+giaithua);
+    }
+    var n=giaithua(n)
+</script>
+</body>
+</html>
